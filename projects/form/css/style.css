@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.pole {
+    display: flex;
+    flex-direction: column;
+    height: 3.5em;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.mainpole {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 10px;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 10px 10px;
+}
