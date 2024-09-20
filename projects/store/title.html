@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sofadi+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p style="text-align: center; margin: 10px; display: block; color:black">COFFEE HOUSE</p>
+    </header>
+    <main style="background-color: rgb(119, 72, 11);  display: flex; justify-content: center;">
+    <div class="menu">
+        <div class="main">
+            <input class="name" type="text" placeholder="Иванов">
+            <input class="surname" type="text" placeholder="Иван">
+        </div>
+        <div class="body">
+            <table class="left">
+                <tr>
+                    <td>
+                        <input type="checkbox" id="coffee1" name="coffee" value="80">
+                        <label for="coffee1">Экспрессо 80р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="coffee2" name="coffee" value="110">
+                        <label for="coffee2">Американо 110р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="coffee3" name="coffee" value="120">
+                        <label for="coffee3">Латте 120р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="coffee4" name="coffee" value="90">
+                        <label for="coffee4">Капучино 90р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+            </table>
+            <table class="right">
+                <tr>
+                    <td>
+                        <input type="checkbox" id="cake1" name="coffee" value="80">
+                        <label for="cake1">Шоколадный кекс 80р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="cake2" name="coffee" value="90">
+                        <label for="cake2">Черничный кекс 90р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="cake3" name="coffee" value="100">
+                        <label for="cake3">Яблочный торт 100р.</label>
+                    </td>
+                    <td>
+                        <input class="box" name="col" type="text" value="0">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="foot">
+        <div style="display: flex; justify-content: center;">
+            <p>Итого:</p>
+            <p class="result"></p>
+        </div>
+        <button class="btn">Оформить заказ</button>
+        </div>
+    </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
